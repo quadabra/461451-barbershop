@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Барбершоп</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 	<header>
-		<a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="на главную"></a>
+		<a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="логотип"></a>
 		<ul class="top-menu">
 			<li><a href="#">информация</a></li>
 			<li><a href="#">новости</a></li>
@@ -18,52 +16,53 @@
 			<li><a href="#">магазин</a></li>
 			<li><a href="#">контакты</a></li>
 		</ul>
-		<a href="#">вход</a>
+		<ul>
+			<li><a href="#">вход</a></li>
+		</ul>
 	</header>
+
 	<main class="catalog">
 		<h1>cредства для ухода</h1>
 		<ul class="breadcrumbs">
 			<li><a href="index.html">главная</a></li>
 			<li><a href="#">магазин</a></li>
-			<li><a href="#">средства для ухода</a></li>
+			<li><a>средства для ухода</a></li>
 		</ul>
-
 
 		<form action="https://echo.htmlacademy.ru" method="get">
 			<fieldset class="brand">
 				<legend>Производители:</legend>
 				<input type="checkbox" name="baxter" id="baxter" checked>
-					<label for="baxter">baxter of california</label>
+				<label for="baxter">baxter of california</label>
 				<input type="checkbox" name="natty" id="natty">
-					<label for="natty">mr natty</label>
+				<label for="natty">mr natty</label>
 				<input type="checkbox" name="suavecito" id="suavecito" checked>
-					<label for="suavecito">suavecito</label>
+				<label for="suavecito">suavecito</label>
 				<input type="checkbox" name="malin" id="malin">
-					<label for="malin">malin+goetz</label>
+				<label for="malin">malin+goetz</label>
 				<input type="checkbox" name="murrays" id="murrays">
-					<label for="murrays">murray`s</label>
+				<label for="murrays">murray`s</label>
 				<input type="checkbox" name="american" id="american" checked>
-					<label for="american">american crew</label>
+				<label for="american">american crew</label>
 			</fieldset>
-			
+
 			<fieldset class="item-group">
 				<legend>группы товаров:</legend>
-				<input type="radio" name="razor" id="razor">
-					<label for="razor">бритвенные принадлежности</label>
-				<input type="radio" name="cream" id="cream" checked>
-					<label for="cream">средства для ухода</label>
-				<input type="radio" name="accessories" id="accessories">
-					<label for="accessories">аксессуары</label>
+				<input type="radio" name="razor" id="razor" value="razor">
+				<label for="razor">бритвенные принадлежности</label>
+				<input type="radio" name="cream" id="cream" value="cream" checked>
+				<label for="cream">средства для ухода</label>
+				<input type="radio" name="accessories" id="accessories" value="accessories">
+				<label for="accessories">аксессуары</label>
 			</fieldset>
 			<button type="submit" class="btn btn-form">показать</button>
 		</form>
-		
-		
+
 		<section class="items-list">
-		<h2>товары</h2>
+		<h2 class="item-list-title">Товары</h2>
 			<article class="item">
-			<h3>набор для путешествий</h3>
-				<img src="img/baxter_travel.png" width="220" height="165" alt="Набор для путешествий &laquo;baxter of california&raquo;">
+			<h3 class="item-title">Набор для путешествий</h3>
+				<img src="img/baxter_travel.jpg" width="220" height="165" alt="Набор для путешествий &laquo;baxter of california&raquo;">
 				<p class="item-description">
 					<span class="item-type">Набор для путешествий</span>
 					<span class="brand-name">&laquo;baxter of california&raquo;</span>
@@ -75,8 +74,8 @@
 			</article>
 
 			<article class="item">
-			<h3>Увлажняющий кондиционер</h3>
-				<img src="img/baxter_conditioner.png" width="220" height="165" alt="Увлажняющий кондиционер &laquo;baxter of california&raquo;">
+			<h3 class="item-title">Увлажняющий кондиционер</h3>
+				<img src="img/baxter_conditioner.jpg" width="220" height="165" alt="Увлажняющий кондиционер &laquo;baxter of california&raquo;">
 				<p class="item-description">
 					<span class="item-type">Увлажняющий кондиционер</span>
 					<span class="brand-name">&laquo;baxter of california&raquo;</span>
@@ -88,8 +87,8 @@
 			</article>
 
 			<article class="item">
-			<h3>Гель для волос</h3>
-				<img src="img/suavecito_gel.png" width="220" height="165" alt="Гель для волос &laquo;suavecito&raquo;">
+			<h3 class="item-title">Гель для волос</h3>
+				<img src="img/suavecito_gel.jpg" width="220" height="165" alt="Гель для волос &laquo;suavecito&raquo;">
 				<p class="item-description">
 					<span class="item-type">Гель для волос</span>
 					<span class="brand-name">&laquo;suavecito&raquo;</span>
@@ -101,8 +100,8 @@
 			</article>
 
 			<article class="item">
-			<h3>Глина для укладки волос</h3>
-				<img src="img/american_clay.png" width="220" height="165" alt="Глина для укладки волос &laquo;american crew&raquo;">
+			<h3 class="item-title">Глина для укладки волос</h3>
+				<img src="img/american_clay.jpg" width="220" height="165" alt="Глина для укладки волос &laquo;american crew&raquo;">
 				<p class="item-description">
 					<span class="item-type">Глина для укладки волос</span>
 					<span class="brand-name">&laquo;american crew&raquo;</span>
@@ -114,8 +113,8 @@
 			</article>
 
 			<article class="item">
-			<h3>Гель для волос</h3>
-				<img src="img/american_gel.png" width="220" height="165" alt="Гель для волос &laquo;american-crew&raquo;">
+			<h3 class="item-title">Гель для волос</h3>
+				<img src="img/american_gel.jpg" width="220" height="165" alt="Гель для волос &laquo;american-crew&raquo;">
 				<p class="item-description">
 					<span class="item-type">Гель для волос</span>
 					<span class="brand-name">&laquo;american-crew&raquo;</span>
@@ -127,8 +126,8 @@
 			</article>
 
 			<article class="item">
-			<h3>Набор для бритья</h3>
-				<img src="img/baxter_set.png" width="220" height="165" alt="Набор для бритья &laquo;baxter of california&raquo;">
+			<h3 class="item-title">Набор для бритья</h3>
+				<img src="img/baxter_set.jpg" width="220" height="165" alt="Набор для бритья &laquo;baxter of california&raquo;">
 				<p class="item-description">
 					<span class="item-type">Набор для бритья</span>
 					<span class="brand-name">&laquo;baxter of california&raquo;</span>
@@ -138,25 +137,24 @@
 					<a href="#" class="btn btn-buy">Купить</a>
 				</p>
 			</article>
-			
+
 			<ul class="paginator">
 				<li><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
+				<li><a class="active-page">2</a></li>
 				<li><a href="#">3</a></li>
 				<li><a href="#">4</a></li>
 			</ul>
-			
+
 		</section>
 	</main>
-	
-		
+
 	<footer class="contacts-block">
 		<article class="contacts">
 			<h3>контакты</h3>
 			барбершоп &laquo;бородинский&raquo;<br>
 			адрес: г.санкт-петербург, ул. б. конюшенная, д. 19/8<br>
 			<a href="#" class="map">как нас найти?</a><br>
-			телефон: +7 (495)666-02-66
+			телефон: <a href="tel:">+7 (495)666-02-66</a>
 		</article>
 		<article class="social-block">
 		<h3>социальные сети</h3>
@@ -171,6 +169,5 @@
 			<a href="https://htmlacademy.ru/intensive/htmlcss" class="btn">html academy</a>
 		</article>
 	</footer>
-		
 </body>
 </html>

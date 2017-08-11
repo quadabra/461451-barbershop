@@ -1,0 +1,10 @@
+body {
+	text-transform: uppercase;
+}
+.logo-small {
+	display: block;
+	background-color: black;
+}
+.item-type {
+	text-transform: none;
+}

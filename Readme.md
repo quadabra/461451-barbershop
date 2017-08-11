@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Максим Грушников](https://up.htmlacademy.ru/htmlcss/18/user/461451).
+* Наставник: [Ольга Одноколова](https://up.htmlacademy.ru/htmlcss/18/user/38936).
 
 ---
 

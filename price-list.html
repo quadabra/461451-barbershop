@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-	<title>HTML Academy: Барбершоп</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="логотип"></a>
-		<ul class="top-menu">
-			<li><a href="#">информация</a></li>
-			<li><a href="#">новости</a></li>
-			<li><a href="#">прайс-лист</a></li>
-			<li><a href="#">магазин</a></li>
-			<li><a href="#">контакты</a></li>
-		</ul>
-		<ul>
-			<li><a href="#">вход</a></li>
-		</ul>
-	</header>
+  <header>
+    <nav class="top-menu-nav">
+      <a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="логотип"></a>
+      <ul class="top-menu">
+        <li><a href="info.html">информация</a></li>
+        <li><a href="news.html">новости</a></li>
+        <li><a href="price-list.html">прайс-лист</a></li>
+        <li><a href="#">магазин</a></li>
+        <li><a href="contacts.html">контакты</a></li>
+      </ul>
+      <ul>
+        <li><a class="login-btn" href="#">вход</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<main class="price-list">
-		<h1>прайс-лист</h1>
-		<ul class="breadcrumbs">
-			<li><a href="index.html">главная</a></li>
-			<li><a>прайс-лист</a></li>
-		</ul>
-			<span class="price-list-title">истинно мужская классика</span>
-		<div class="price-brand">
-			<h2>мы используем только<br> лучшие средства:</h2>
-			<ul class="brand-items">
-				<li>baxter of california</li>
-				<li>mr natty</li>
-				<li>suavecito</li>
-				<li>malin+goetz</li>
-			</ul>
-			<h2>несколько слов о нас:</h2>
-			<p class="price-text">Наша парикмахерская занимается исключительномужскими стрижками. Стрижка каждого клиента для нас - это уникальная ипродуманная до мелочей работа. Мы не работаем на количество, мы делаемкачество.
-			</p>
-		</div>
-		<div class="price-master">
-			<h2>цены на услуги наших мастеров</h2>
-			<table class="service">
-				<tr>
-					<td>стрижка</td>
-					<td>1500 &#8381;</td>
-				</tr>
-				<tr>
-					<td>стрижка бороды</td>
-					<td>500 &#8381;</td>
-				</tr>
-				<tr>
-					<td>накрутка усов</td>
-					<td>350 &#8381;</td>
-				</tr>
-			</table>
-			<p class="price-text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
-			</p>
-		</div>
-	</main>
+  <main class="price-list">
+    <h1 class="primary-title">прайс-лист</h1>
+    <ul class="breadcrumbs">
+      <li><a href="index.html">главная</a></li>
+      <li><a>прайс-лист</a></li>
+    </ul>
+    <span class="price-list-title">истинно мужская классика</span>
+    <div class="price-brand">
+      <h2>мы используем только<br> лучшие средства:</h2>
+      <ul class="brand-items">
+        <li>baxter of california</li>
+        <li>mr natty</li>
+        <li>suavecito</li>
+        <li>malin+goetz</li>
+      </ul>
+      <h2 class="secondary-title">несколько слов о нас:</h2>
+      <p class="price-text">Наша парикмахерская занимается исключительномужскими стрижками. Стрижка каждого клиента для нас - это уникальная ипродуманная до мелочей работа. Мы не работаем на количество, мы делаемкачество.
+      </p>
+    </div>
+    <div class="price-master">
+      <h2 class="secondary-title">цены на услуги наших мастеров</h2>
+      <table class="service">
+        <tr>
+          <td>стрижка</td>
+          <td>1500 &#8381;</td>
+        </tr>
+        <tr>
+          <td>стрижка бороды</td>
+          <td>500 &#8381;</td>
+        </tr>
+        <tr>
+          <td>накрутка усов</td>
+          <td>350 &#8381;</td>
+        </tr>
+      </table>
+      <p class="price-text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+      </p>
+    </div>
+  </main>
 
-	<footer class="contacts-block">
-		<article class="contacts">
-			<h3 class="visual-hidden">контакты</h3>
-			барбершоп &laquo;бородинский&raquo;<br>
-			адрес: г.санкт-петербург, ул. б. конюшенная, д. 19/8<br>
-			<a href="#" class="map">как нас найти?</a><br>
-			<a href="tel:+74956660266">телефон: +7 (495)666-02-66</a>
-		</article>
-		<article class="social-block">
-		<h3 class="visual-hidden">социальные сети</h3>
-			<span>давайте дружить!</span>
-			<a class="social-btn vk-btn" href="http://vk.com">vk</a>
-			<a class="social-btn fb-btn" href="http://fb.com">fb</a>
-			<a class="social-btn ig-btn" href="http://instagram.com">instagram</a>
-		</article>
-		<article class="developer">
-		<h3 class="visual-hidden">разработчик</h3>
-			<span>разработано</span>
-			<a href="https://htmlacademy.ru/intensive/htmlcss" class="btn">html academy</a>
-		</article>
-	</footer>
+  <footer class="contacts-block">
+    <article class="contacts">
+      <h3 class="visual-hidden">контакты</h3>
+      барбершоп &laquo;бородинский&raquo;<br> адрес: г.санкт-петербург, ул. б. конюшенная, д. 19/8<br>
+      <a href="#" class="map">как нас найти?</a><br>
+      <a href="tel:+74956660266">телефон: +7 (495)666-02-66</a>
+    </article>
+    <article class="social-block">
+      <h3 class="visual-hidden">социальные сети</h3>
+      <span>давайте дружить!</span>
+      <a class="social-btn vk-btn" href="http://vk.com">vk</a>
+      <a class="social-btn fb-btn" href="http://fb.com">fb</a>
+      <a class="social-btn ig-btn" href="http://instagram.com">instagram</a>
+    </article>
+    <article class="developer">
+      <h3 class="visual-hidden">разработчик</h3>
+      <span>разработано</span>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="btn">html academy</a>
+    </article>
+  </footer>
 </body>
+
 </html>

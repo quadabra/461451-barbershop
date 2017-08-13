@@ -1,83 +1,87 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-	<title>HTML Academy: Барбершоп</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="на главную"></a>
-		<ul class="top-menu">
-			<li><a href="#">информация</a></li>
-			<li><a href="#">новости</a></li>
-			<li><a href="#">прайс-лист</a></li>
-			<li><a href="#">магазин</a></li>
-			<li><a href="#">контакты</a></li>
-		</ul>
-		<ul>
-			<li><a href="#">вход</a></li>
-		</ul>
-	</header>
+  <header>
+    <nav class="top-menu-nav">
+      <a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="логотип"></a>
+      <ul class="top-menu">
+        <li><a href="info.html">информация</a></li>
+        <li><a href="news.html">новости</a></li>
+        <li><a href="price-list.html">прайс-лист</a></li>
+        <li><a href="#">магазин</a></li>
+        <li><a href="contacts.html">контакты</a></li>
+      </ul>
+      <ul>
+        <li><a class="login-btn" href="#">вход</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<main class="catalog-item">
-		<h1>набор для путешествий &laquo;baxter of california&raquo;</h1>
-		<ul class="breadcrumbs">
-			<li><a href="index.html">главная</a></li>
-			<li><a href="#">магазин</a></li>
-			<li><a href="#">средства для ухода</a></li>
-			<li><a>набор для путешествий &laquo;baxter of california&raquo;</a></li>
-		</ul>
-		<section class="current-item-description">
-		<h3 class="visual-hidden">описание товара</h3>
-			<div class="photo-block">
-				<img src="img/baxter_travel_big.jpg" width="460" height="498" alt="набор для путешествий">
-				<img src="img/baxter_travel_small_1.jpg" width="140" height="149" alt="набор для путешествий">
-				<img src="img/baxter_travel_small_2.jpg" width="140" height="149" alt="набор для путешествий">
-				<img src="img/baxter_travel_small_3.jpg" width="140" height="149" alt="набор для путешествий">
-			</div>
-			<div class="current-item-text">
-				<span class="available">есть в наличии</span>
-				<span class="catalog-number">артикул: dexter-ae</span>
-				<p class="item-text">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-				</p>
-				<p class="item-price">
-					<span class="price">2900 &#8381;</span>
-					<a href="#" class="btn btn-buy">Купить</a>
-				</p>
-				<h2>В набор входят</h2>
-				<ul class="item-contain">
-					<li>Средство для умывания (50 мл)</li>
-					<li>Увлажняющий крем (50 мл)</li>
-					<li>Крем для бритья (50 мл)</li>
-					<li>Крем после бритья, шампунь (50 мл)</li>
-					<li>Удобная кожаная косметичка</li>
-				</ul>
-			</div>
-		</section>
-	</main>
+  <main class="catalog-item">
+    <h1 class="primary-title">набор для путешествий &laquo;baxter of california&raquo;</h1>
+    <ul class="breadcrumbs">
+      <li><a href="index.html">главная</a></li>
+      <li><a href="#">магазин</a></li>
+      <li><a href="#">средства для ухода</a></li>
+      <li><a>набор для путешествий &laquo;baxter of california&raquo;</a></li>
+    </ul>
+    <section class="current-item-description">
+      <h3 class="visual-hidden">описание товара</h3>
+      <div class="photo-block">
+        <img src="img/baxter_travel_big.jpg" width="460" height="498" alt="набор для путешествий">
+        <img src="img/baxter_travel_small_1.jpg" width="140" height="149" alt="набор для путешествий">
+        <img src="img/baxter_travel_small_2.jpg" width="140" height="149" alt="набор для путешествий">
+        <img src="img/baxter_travel_small_3.jpg" width="140" height="149" alt="набор для путешествий">
+      </div>
+      <div class="current-item-text">
+        <span class="available">есть в наличии</span>
+        <span class="catalog-number">артикул: dexter-ae</span>
+        <p class="item-text">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
+        </p>
+        <p class="item-price">
+          <span class="price">2900 &#8381;</span>
+          <a href="#" class="btn btn-buy">Купить</a>
+        </p>
+        <h2 class="secondary-title">В набор входят</h2>
+        <ul class="item-contain">
+          <li>Средство для умывания (50 мл)</li>
+          <li>Увлажняющий крем (50 мл)</li>
+          <li>Крем для бритья (50 мл)</li>
+          <li>Крем после бритья, шампунь (50 мл)</li>
+          <li>Удобная кожаная косметичка</li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-	<footer class="contacts-block">
-		<article class="contacts">
-			<h3 class="visual-hidden">контакты</h3>
-			барбершоп &laquo;бородинский&raquo;<br>
-			адрес: г.санкт-петербург, ул. б. конюшенная, д. 19/8<br>
-			<a href="#" class="map">как нас найти?</a><br>
-			<a href="tel:+74956660266">телефон: +7 (495)666-02-66</a>
-		</article>
-		<article class="social-block">
-		<h3 class="visual-hidden">социальные сети</h3>
-			<span>давайте дружить!</span>
-			<a class="social-btn vk-btn" href="http://vk.com">vk</a>
-			<a class="social-btn fb-btn" href="http://fb.com">fb</a>
-			<a class="social-btn ig-btn" href="http://instagram.com">instagram</a>
-		</article>
-		<article class="developer">
-		<h3 class="visual-hidden">разработчик</h3>
-			<span>разработано</span>
-			<a href="https://htmlacademy.ru/intensive/htmlcss" class="btn">html academy</a>
-		</article>
-	</footer>
+  <footer class="contacts-block">
+    <article class="contacts">
+      <h3 class="visual-hidden">контакты</h3>
+      барбершоп &laquo;бородинский&raquo;<br> адрес: г.санкт-петербург, ул. б. конюшенная, д. 19/8<br>
+      <a href="#" class="map">как нас найти?</a><br>
+      <a href="tel:+74956660266">телефон: +7 (495)666-02-66</a>
+    </article>
+    <article class="social-block">
+      <h3 class="visual-hidden">социальные сети</h3>
+      <span>давайте дружить!</span>
+      <a class="social-btn vk-btn" href="http://vk.com">vk</a>
+      <a class="social-btn fb-btn" href="http://fb.com">fb</a>
+      <a class="social-btn ig-btn" href="http://instagram.com">instagram</a>
+    </article>
+    <article class="developer">
+      <h3 class="visual-hidden">разработчик</h3>
+      <span>разработано</span>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="btn">html academy</a>
+    </article>
+  </footer>
 </body>
+
 </html>

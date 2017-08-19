@@ -9,43 +9,48 @@
 </head>
 
 <body>
-  <header>
-    <nav class="top-menu-nav">
-      <a href="index.html" class="logo-small"><img src="img/logo-small.png" width="111" height="24" alt="логотип"></a>
-      <ul class="top-menu">
-        <li><a href="info.html">информация</a></li>
-        <li><a href="news.html">новости</a></li>
-        <li><a href="price-list.html">прайс-лист</a></li>
-        <li><a href="#">магазин</a></li>
-        <li><a href="contacts.html">контакты</a></li>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li class="site-navigation-current"><a>Прайс-лист</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
       </ul>
-      <ul>
-        <li><a class="login-btn" href="#">вход</a></li>
+      <ul class="user-navigation">
+        <li>
+          <a class="login-link" href="login.html">Вход</a>
+        </li>
       </ul>
     </nav>
   </header>
-
-  <main class="price-list">
-    <h1 class="primary-title">прайс-лист</h1>
+  <main class="container">
+    <h1 class="page-title">Прайс-лист</h1>
     <ul class="breadcrumbs">
-      <li><a href="index.html">главная</a></li>
-      <li><a>прайс-лист</a></li>
+      <li>
+        <a href="index.html">Главная</a>
+      </li>
+      <li class="breadcrumbs-current">Прайс-лист</li>
     </ul>
-    <span class="price-list-title">истинно мужская классика</span>
-    <div class="price-brand">
-      <h2>мы используем только<br> лучшие средства:</h2>
+    <span class="price-list-title">Истинно мужская классика</span>
+    <section class="price-brand">
+      <h2 class="section-title">Мы используем только лучшие средства:</h2>
       <ul class="brand-items">
-        <li>baxter of california</li>
-        <li>mr natty</li>
-        <li>suavecito</li>
-        <li>malin+goetz</li>
+        <li>Baxter of california</li>
+        <li>Mr natty</li>
+        <li>Suavecito</li>
+        <li>Malin+goetz</li>
       </ul>
-      <h2 class="secondary-title">несколько слов о нас:</h2>
+      <h2 class="section-title">несколько слов о нас:</h2>
       <p class="price-text">Наша парикмахерская занимается исключительномужскими стрижками. Стрижка каждого клиента для нас - это уникальная ипродуманная до мелочей работа. Мы не работаем на количество, мы делаемкачество.
       </p>
-    </div>
-    <div class="price-master">
-      <h2 class="secondary-title">цены на услуги наших мастеров</h2>
+    </section>
+    <section class="price-master">
+      <h2 class="section-title">цены на услуги наших мастеров</h2>
       <table class="service">
         <tr>
           <td>стрижка</td>
@@ -62,29 +67,50 @@
       </table>
       <p class="price-text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
       </p>
-    </div>
+    </section>
   </main>
-
-  <footer class="contacts-block">
-    <article class="contacts">
-      <h3 class="visually-hidden">контакты</h3>
-      барбершоп &laquo;бородинский&raquo;<br> адрес: г.санкт-петербург, ул. б. конюшенная, д. 19/8<br>
-      <a href="#" class="map">как нас найти?</a><br>
-      <a href="tel:+74956660266">телефон: +7 (495)666-02-66</a>
-    </article>
-    <article class="social-block">
-      <h3 class="visually-hidden">социальные сети</h3>
-      <span>давайте дружить!</span>
-      <a class="social-btn vk-btn" href="http://vk.com">vk</a>
-      <a class="social-btn fb-btn" href="http://fb.com">fb</a>
-      <a class="social-btn ig-btn" href="http://instagram.com">instagram</a>
-    </article>
-    <article class="developer">
-      <h3 class="visually-hidden">разработчик</h3>
-      <span>разработано</span>
-      <a href="https://htmlacademy.ru/intensive/htmlcss" class="btn">html academy</a>
-    </article>
+  <footer class="main-footer">
+    <p class="footer-contacts">
+      Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+      <a href="map.html">Как нас найти?</a><br> Телефон: +7 (812) 666-02-66
+    </p>
+    <div class="footer-social">
+      <b>Давайте дружить!</b>
+      <ul>
+        <li><a class="social-button" href="#">Вконтакте</a></li>
+        <li><a class="social-button" href="#">Фейсбук</a></li>
+        <li><a class="social-button" href="#">Инстаграм</a></li>
+      </ul>
+    </div>
+    <p class="footer-copyright">
+      <b>Разработано:</b>
+      <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+    </p>
   </footer>
+  <section class="modal modal-login">
+    <h2 class="page-title">Личный кабинет</h2>
+    <p>Введите свой логин и пароль.</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label class="visually-hidden" for="user-login">Логин</label>
+        <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-password">Пароль</label>
+        <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+      </p>
+      <p class="login-password-info">
+        <label class="login-checkbox">
+            <input type="checkbox" name="remember" class="visually-hidden">
+            <span class="checkbox-indicator"></span>
+            Запомните меня
+          </label>
+        <a class="restore" href="#">Я забыл пароль!</a>
+      </p>
+      <button class="button" type="submit">Войти</button>
+    </form>
+    <button class="modal-close" type="button">Закрыть</button>
+  </section>
 </body>
 
 </html>

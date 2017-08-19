@@ -4,16 +4,25 @@ body {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
-.primary-title {
+.page-title {
+  font-family: 'PT Sans narrow', sans-serif;
   font-size: 30px;
   line-height: 42px;
   font-weight: bold;
 }
 
-.secondary-title {
+.section-title {
+  font-family: 'PT Sans narrow', sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;

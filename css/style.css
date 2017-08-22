@@ -318,3 +318,8 @@ a {
 .product-info ul {
   list-style: none;
 }
+
+.price-list-title {
+  font-size: 48px;
+  line-height: 48px;
+}
